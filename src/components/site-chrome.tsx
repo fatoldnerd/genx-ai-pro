@@ -31,6 +31,7 @@ export function SiteHeader() {
       <Brand />
       <nav className="nav-links" aria-label="Primary navigation">
         <Link href="/#services">For business</Link>
+        <Link href="/agent-sprint">Agent Sprint</Link>
         <Link href="/#approach">Method</Link>
         <Link href="/coaching">AI Office Hours</Link>
         <Link href="/tools">Tools</Link>
@@ -54,6 +55,7 @@ export function SiteFooter() {
         <div>
           <span>Navigate</span>
           <Link href="/#services">For business</Link>
+          <Link href="/agent-sprint">Agent Sprint</Link>
           <Link href="/coaching">AI Office Hours</Link>
           <Link href="/tools">Free tools</Link>
           <Link href="/about">About Brad</Link>

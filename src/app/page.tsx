@@ -418,6 +418,9 @@ export default function Home() {
               <li>Workflow transformation</li>
               <li>AI operating model</li>
             </ul>
+            <Link className="inline-arrow-link engagement-sprint-link" href="/agent-sprint">
+              Explore the Agent Sprint <Arrow />
+            </Link>
             <a
               className="button button-primary"
               href="https://calendly.com/bradptowers/free-15-minute-ai-audit"

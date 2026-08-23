@@ -22,3 +22,7 @@ build/
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Playwright generated reports
+playwright-report/
+test-results/
