@@ -21,9 +21,9 @@
 
 | Artifact | Expected behavior | Automated QA state | Brad decision | Notes |
 |---|---|---|---|---|
-| Case A Discovery Gap output | Identify gaps and give a proposal-readiness verdict | 96/100, PASS, ready for Brad review | Pending | Synthetic test only; kickoff remains blocked by stated gates |
+| Case A Discovery Gap output | Identify gaps and give a proposal-readiness verdict | 100/100, PASS, accepted as client-ready synthetic discovery output | Pending | Synthetic test only; kickoff remains blocked by stated gates |
 | Case B Discovery Gap output | Give a no-go or substantial-redefinition verdict | 99/100, ACCEPT; current request NO-GO; Proposal Agent BLOCKED | Pending | Synthetic test only; no proposal generated |
-| Case A Proposal and SOW output | Produce a scope-safe £5,000 Starter proposal draft | 99/100, PASS, accepted for evidence-pack handoff and human review | Pending | Internal draft only; external sending and kickoff remain gated |
+| Case A Proposal and SOW output | Produce a scope-safe £5,000 Starter proposal draft | 98/100, PASS, accepted for human proposal review subject to explicit gates | Pending | Internal draft only; external sending and kickoff remain gated |
 
 ## Required review questions
 

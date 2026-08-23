@@ -54,7 +54,7 @@ The intended change is narrower than end-to-end automation. The Sprint would red
 
 | Priority | Gap | Current state | Evidence needed to close it |
 |---|---|---|---|
-| P0 | Source-material readiness and quality | Examples are stated as available but have not been inspected. | Confirm the six expected sanitized artifacts exist, are approved for use, can be accessed after payment, and contain enough representative detail to build and test both workflows. Review at least a manifest or redacted sample structure before kickoff without contradicting the stated post-payment handoff. |
+| P0 | Source-material readiness and quality | Examples are stated as available but have not been inspected. | Confirm the six stated examples, sanitized or otherwise approved for permitted Sprint use, exist, can be accessed after payment, and contain enough representative detail to build and test both workflows. Review at least a manifest or redacted sample structure before kickoff without contradicting the stated post-payment handoff. |
 | P0 | Exact input and output boundaries for each workflow | High-level workflows and acceptance criteria are clear, but the required fields, source hierarchy, and final draft structure are not. | Agree an input inventory, required/optional fields, proposal/SOW sections, status-summary sections, and the treatment of conflicting, stale, or missing source material. |
 | P0 | Evaluation method and acceptance sign-off | Acceptance criteria exist, but the test procedure, pass/fail rubric, number of test cases, correction loop, and final signatory are not explicit. | Define representative test cases, traceability checks, material-error thresholds or categorical ratings, review responsibilities, permitted revisions, and Maya’s final acceptance decision. |
 | P0 | Approved AI environment and information-handling boundary | The case assumes an approved AI tool but does not identify it or establish its approval state. | Name the tool before kickoff; confirm who provisions access and what sanitized information may be entered. Escalate security, privacy, or compliance approval to the fictional client rather than treating the Sprint as certification. |
@@ -86,7 +86,7 @@ The intended change is narrower than end-to-end automation. The Sprint would red
 
 ## P0  -  answer before commercial commitment or make explicit conditions in the proposal
 
-1. Can Maya and Alex confirm that the six stated sanitized examples exist, are approved for Sprint use, and will be supplied after payment in time for kickoff?
+1. Can Maya and Alex confirm that the six stated examples, sanitized or otherwise approved for permitted Sprint use, exist and will be supplied after payment in time for kickoff?
 2. Without requiring pre-payment transfer of source materials, can Alex provide a manifest describing each example’s format, approximate completeness, and which workflow variant it represents?
 3. For each workflow, what exact inputs are mandatory, what inputs are optional, and what should happen when a required input is absent, contradictory, or stale?
 4. Which document or person is authoritative when discovery notes, prior proposals, and consultant emails conflict?

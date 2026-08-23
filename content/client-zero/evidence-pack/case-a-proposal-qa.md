@@ -1,169 +1,151 @@
-# Output QA Red-Team Report: Revised Synthetic Case A Proposal
+# Output QA Red-Team Review: Synthetic Case A Proposal
 
-**Reviewed artifact SHA256: 1e69020a28ca38e25c531ec2d0bcac5ebcf27c6ebefd86e8ff9df7e80ef4c746**
-> **QA status:** Fresh canonical review of the complete current proposal. This report replaces the prior QA report and does not carry forward its score.
+> **Classification:** Clearly synthetic test material. Northstar Cyber Advisory, Maya Singh, Alex Romero, the two consultants, and every case fact referenced in this review are fictional. This review is a synthetic workflow-test artifact, not customer evidence, a testimonial, a case study, a delivered result, or a real commercial opportunity.
 >
-> **Review date:** 2026-08-23
+> **Review scope:** Fresh canonical QA of `case-a-proposal-output.md` against the supplied synthetic input, Discovery Gap output, Proposal and SOW Generator Agent spec, quality rubric, review checklist, and evidence-pack boundary.
 >
-> **Evidence classification:** All companies, people, quotations, metrics, and business circumstances in this review are synthetic. Neither the proposal nor this QA report is customer evidence, a testimonial, a case study, or proof of commercial impact.
+> **Reviewed artifact SHA256: ab2f97e11f6a42c2e56954ad081f0b4ccccc7cf0202463d16f738933e4ffc100**
 
 ## Workflow and decision context
 
-Northstar Cyber Advisory, a fictional eighteen-person UK cybersecurity consultancy, is considering a fictional **£5,000, two-week GenX AI Pro Starter Sprint** for two bounded, manually operated workflows: (1) discovery material to a reviewed proposal/SOW first draft and (2) consultant updates to a reviewed client-status summary.
+The proposal concerns a fictional £5,000, two-week Starter Sprint for two bounded, manually operated, human-reviewed workflows: (1) turning discovery notes and approved historical material into a proposal/SOW first draft and (2) turning consultant updates into a client-status summary. Alex Romero is the fictional workflow owner and day-to-day operator; Maya Singh is the fictional buyer, sponsor, commercial approver, and human reviewer. The immediate decision is whether Maya should approve, conditionally approve, or defer the commercial proposal. Payment, permitted and usable source material, approved AI-tool access and information boundaries, agreed workflow boundaries and acceptance mechanics, and reviewer availability remain gates before kickoff.
 
-- **Primary user / workflow owner:** Alex Romero, fictional operations manager.
-- **Buyer / sponsor / commercial approver:** Maya Singh, fictional founder and managing director.
-- **Human reviewer:** Maya Singh.
-- **Additional material providers and testers:** Two fictional consultants.
-- **Decision moment:** Maya decides whether to approve, conditionally approve, or reject the commercial terms. Payment and confirmation of usable materials, approved tool access and information boundaries, workflow boundaries, acceptance mechanics, and reviewer availability precede kickoff.
+## 1. QA score
 
-The output under review is a proposal and SOW draft for human review. It is not an authorization to send externally or begin delivery.
+**98/100  -  Premium, review-ready draft.**
 
-# 1. QA score
+| Rubric area | Score | QA finding |
+|---|---:|---|
+| Input grounding | 15/15 | Facts, supplied assumptions, recommendations, and items to confirm are consistently distinguished. The proposal preserves the synthetic boundary and does not convert the six-to-eight-hour estimate into a result or saving. |
+| Mission fit | 15/15 | The artifact is a specific, commercially coherent proposal/SOW draft that reduces overcommitment and remains explicitly subject to human judgment. |
+| Output completeness | 20/20 | It contains the readiness diagnosis, executive summary, client situation, engagement rationale, scope, delivery plan, investment, assumptions, exclusions, risks, success criteria, next steps, send email, and review checklist. |
+| Specificity | 14/15 | Workflows, roles, approval boundaries, source requirements, risks, gates, and decisions are concrete. One point is withheld because provider ownership, review cadence, exact workflow structures, and participant-set dates necessarily remain open. They are correctly exposed rather than guessed. |
+| Risk and review discipline | 15/15 | Commercial, legal, security/compliance, information-handling, source-fitness, scope, and external-send risks all have conspicuous human gates. |
+| Commercial usefulness | 9/10 | The £5,000/two-week/two-workflow offer and decision sequence are clear and actionable. One point is withheld because payment details beyond the supplied sequence, acceptance mechanics, and kickoff schedule still require human agreement before external commitment or delivery. |
+| Reusability | 10/10 | The scope table, phase plan, gates, acceptance structure, next steps, email, and checklist form a repeatable operating pattern. |
+| **Total** | **98/100** | **No automatic-fail condition is present.** |
 
-## **99/100  -  Premium, client-ready within the stated synthetic and human-review boundary**
+The score reflects the current corrected artifact only. It is not an assertion that the fictional engagement is ready to start or that the workflow has produced real-world value.
 
-| Rubric area | Weight | Score | QA finding |
-|---|---:|---:|---|
-| Input grounding | 15 | 15 | Uses the supplied synthetic facts accurately, preserves the evidence boundary, distinguishes confirmed facts, supplied assumptions, recommendations, and items to confirm, and does not convert the six-to-eight-hour estimate into a result. |
-| Mission fit | 15 | 15 | Produces a specific, commercially credible proposal/SOW draft while protecting scope and human judgment. |
-| Output completeness | 20 | 20 | Includes the readiness diagnosis, executive summary, client situation, proposed engagement, scope, delivery plan, investment, assumptions, exclusions, risks, success criteria, next steps, email draft, and review checklist. |
-| Specificity | 15 | 15 | Names the two workflows, price, duration, deliverables, known stakeholders, decision sequence, gates, risks, and concrete next actions. Revised delivery-table assignments are correctly marked **To confirm** rather than asserted as agreed responsibilities. |
-| Risk and review discipline | 15 | 15 | Keeps commercial, legal, security/compliance, operational, client-facing, and sending decisions behind explicit human gates. Missing inputs and scope-change conditions are conspicuous. |
-| Commercial usefulness | 10 | 9 | The draft is credible for a £5K Sprint and provides a complete, reviewable operating artifact rather than generic commentary. One point is withheld because several commercial and operating terms necessarily remain unresolved; the draft appropriately exposes rather than invents them. |
-| Reusability | 10 | 10 | Provides repeatable scope tables, gates, success criteria, risk controls, next steps, an email draft, and a detailed human-review checklist. |
-| **Total** | **100** | **99** | **No automatic-fail condition triggered.** |
+## 2. Blocking issues
 
-## Required artifact check
+**None for handoff to human proposal review.**
 
-All agent-specific artifacts required by the rubric and checklist are present:
+The proposal must not be treated as unconditionally ready for kickoff or approved for external sending. Its open conditions are delivery and approval gates, not concealed defects:
 
-- [x] Proposal readiness diagnosis
-- [x] Executive proposal summary
-- [x] Client situation and pain in the client’s words
-- [x] Proposed engagement
-- [x] Engagement name
-- [x] Objective
-- [x] Why this approach
-- [x] What is intended to change for the client
-- [x] Scope of work
-- [x] Delivery plan
-- [x] Investment, assumptions, exclusions, risks, success criteria, and next steps
-- [x] Human-gated proposal email draft
-- [x] Reusable human-review checklist
+- Source existence, permitted use, usability, and fit have not been verified.
+- Exact input/output boundaries, source hierarchy, workflow variants, and stop/flag rules remain to be agreed.
+- The test set, scoring method, correction loop, and acceptance authority remain to be agreed.
+- The approved AI environment, access owner, and permitted information boundary remain unconfirmed.
+- Stakeholder availability, review cadence, participant-set dates, and provider/client operating responsibilities remain open.
+- Commercial and legal terms beyond the supplied £5,000 price and payment-before-materials sequence are absent.
 
-# 2. Blocking issues
+These conditions would become blockers if the proposal were sent as final, accepted without human review, or used to begin delivery prematurely.
 
-**None.**
+## 3. Unsupported claims
 
-The previous role-assignment defect is resolved. In the revised delivery plan, Alex’s phase-specific operational review and testing responsibilities are marked **To confirm**. The proposal no longer turns his evidenced general workflow ownership into unsupported, agreed delivery-phase commitments. Provider ownership, consultant testing, Maya’s phase-specific role, final acceptance authority, attendance, and client contacts are likewise left for confirmation where the supplied evidence does not settle them.
+**No material unsupported claim was detected.**
 
-# 3. Unsupported claims
+Specific checks:
 
-**None identified.**
+- The proposal does not claim ROI, savings, revenue, conversion, capacity, adoption, or accuracy improvement.
+- The six-to-eight-hour proposal estimate is accurately identified as an unvalidated synthetic baseline, not a measured outcome.
+- No real customer proof, testimonial, case study, buyer demand, or delivered result is implied.
+- No integration, autonomous sending, compliance/security approval, legal approval, product capability, deadline, or buyer intent is invented.
+- The £5,000 price, two-week duration, two workflows, supplied deliverables, assumptions, exclusions, stakeholders, and decision sequence trace to the qualified synthetic input.
+- Recommended mechanisms such as a pre-payment manifest, categorical acceptance method, source hierarchy, stop/flag behavior, and change control are presented as recommendations or items to confirm rather than existing client facts.
 
-The proposal avoids or correctly qualifies the main claim risks:
+### Corrected source-material wording
 
-- The six-to-eight-hour proposal estimate is labelled an unvalidated synthetic baseline, not a saving or ROI result.
-- Desired improvements are framed as intended changes, not guaranteed outcomes.
-- No revenue, conversion, capacity, adoption, accuracy, or time-saving result is claimed.
-- No case study, testimonial, integration, deadline, buyer intent, security/compliance approval, or product capability is invented.
-- The source artifacts, approved AI environment, detailed workflow boundaries, acceptance method, availability, and phase responsibilities are treated as assumptions, gates, or **To confirm** items rather than facts.
-- The proposal does not imply that Alex, Maya, the consultants, or the provider have accepted delivery-table responsibilities that remain unconfirmed.
+The earlier overstatement is not present in the reviewed artifact. The risk mitigation now says to inspect **“the six stated examples, sanitized or otherwise approved for permitted Sprint use”** rather than classifying all six as sanitized. This correctly avoids relabelling the two approved historical proposals as sanitized while retaining a permitted-use qualification. The proposal also keeps source fitness, approval, usability, and the fictional client’s information boundary as unresolved gates. Other references to “six source artifacts” describe the count, not a sanitation classification.
 
-# 4. Missing context
+## 4. Missing context
 
-The following context is still unresolved, but the proposal identifies it clearly and places it behind confirmation or kickoff gates:
+The proposal accurately surfaces the material unknowns instead of filling them in:
 
-1. Fitness, approval, and representativeness of the six source artifacts.
-2. Exact required and optional inputs, source hierarchy, output structures, proposal variants, and missing/conflicting-information behavior.
-3. Status/risk taxonomy and escalation presentation for client-status reporting.
-4. Representative test cases, scoring method, material-error or pass/revise/fail criteria, correction loop, and final acceptance authority.
-5. Approved AI tool, access owner, approval state, and permitted sanitized-information boundary.
-6. Phase-specific client, provider, operator, reviewer, and tester responsibilities.
-7. Stakeholder availability, review cadence, phase allocation, calendar dates, and feedback windows.
-8. Post-handoff ownership, change control, support channel, support start point, and response expectations.
-9. Commercial or legal terms beyond the supplied £5,000 price and payment-before-materials sequence.
+1. Exact proposal/SOW variant and reusable-language boundary.
+2. Required and optional fields for both workflows.
+3. Authoritative-source hierarchy and handling of stale, absent, or conflicting evidence.
+4. Client-status taxonomy, escalation presentation, and missing-update behavior.
+5. Representative test cases, scoring/pass criteria, correction loop, and final signatory.
+6. Approved AI tool, approval state, access owner, and permitted sanitized-information boundary.
+7. Source manifest and post-payment inspection results establishing fitness and representativeness.
+8. Provider owner, operational testing responsibilities, post-handoff ownership, and change control.
+9. Kickoff date, phase allocation, review cadence, feedback windows, and stakeholder availability.
+10. Taxes, payment dates, cancellation terms, and any other commercial or legal terms beyond those supplied.
+11. Real proof points or validated benefits; none exist in this synthetic evidence pack and none should be inferred from it.
 
-These gaps do not block proposal review because the document does not conceal them or claim that they are resolved. They **do** block unconditional kickoff and, where applicable, external use until confirmed by the appropriate humans.
+These omissions are appropriate `To confirm` items. They constrain approval and kickoff but do not require speculative text in this draft.
 
-# 5. Safety concerns
+## 5. Safety concerns
 
-**No blocking safety concern identified.** The residual concerns are controlled appropriately:
+**No unresolved safety violation was found in the draft.** The following controls must remain intact:
 
-- **External-use risk:** The proposal and email are explicitly marked as drafts requiring human approval; automatic sending is excluded.
-- **Commercial/legal risk:** Pricing, scope, legal terms, claims, delivery commitments, external wording, and sending remain under Maya’s approval. Unknown legal and commercial terms are not fabricated.
-- **Security/privacy/compliance risk:** The selected AI environment and sanitized-information boundary are client confirmation items; the Sprint does not claim certification or approval.
-- **Operational risk:** Build cannot start until source fitness, workflow boundaries, acceptance mechanics, access, and availability are confirmed.
-- **Scope-creep risk:** Materially different variants, integrations, extra workflows, autonomous action, and custom application work require defer/rescope decisions.
-- **Evidence misuse risk:** The synthetic classification is prominent and the document expressly prohibits presenting the artifact as customer proof or a delivered result.
+- The synthetic classification must remain on the proposal, email, QA review, and every derivative.
+- The email and proposal require explicit human approval before any external use.
+- Maya retains approval of pricing, scope, legal terms, claims, commitments, client decisions, external wording, and sending.
+- No proposal or report is automatically sent and no system integration or autonomous action is implied.
+- The fictional client, not the Sprint, must approve the AI environment and permitted information boundary.
+- Security, privacy, legal, and compliance decisions remain outside the Sprint and must not be inferred from source approval.
+- Materially different variants or unusable source material must trigger stop, defer, or explicit rescope rather than silent scope expansion.
+- This artifact cannot be presented as proof of real demand, adoption, customer value, financial impact, accuracy, or confidential-material performance.
 
-# 6. Revision recommendations
+## 6. Revision recommendations
 
-## Required before QA handoff
+No substantive revision is required before internal human proposal review. The following are optional finishing actions, not corrections to unsupported content:
 
-**None.** The current revised proposal meets the rubric and checklist for handoff as a premium synthetic proposal draft for human review.
+1. During human review, assign the currently unconfirmed provider owner, operational tester, final acceptance signatory, support contact, and change-control owner.
+2. Insert only participant-approved dates, review cadence, and feedback windows after agreement.
+3. Attach or reference the agreed source manifest, input/output field definitions, source hierarchy, test set, and acceptance rubric before kickoff.
+4. Have the provider complete commercial, legal, delivery, and send approval using the proposal’s checklist.
+5. Preserve the corrected source-material wording and do not normalize it back to “six sanitized artifacts.”
+6. If a client-facing version is ever created, preserve the synthetic warning for this test case; do not polish away the evidence boundary.
 
-## Optional editorial refinement
+## 7. Handoff verdict
 
-1. During human review, replace each consequential **To confirm** item only with participant-approved language; do not remove the label merely to make the document appear more complete.
-2. If the proposal is converted into a reusable client template, preserve the distinction between an evidenced general role (for example, workflow owner) and a separately agreed phase responsibility (for example, acceptance tester or final signatory).
-3. Keep the classification and human-approval banner attached to the email and any derivative excerpt, not only the full proposal.
+**PASS  -  ACCEPT FOR HUMAN PROPOSAL REVIEW, SUBJECT TO THE EXPLICIT GATES IN THE DRAFT.**
 
-# 7. Handoff verdict
+**Not approved for automatic or unreviewed external sending. Not unconditionally ready for kickoff. Not valid as customer proof or evidence of real-world results.**
 
-## **PASS  -  ACCEPT FOR EVIDENCE-PACK HANDOFF AND HUMAN REVIEW**
-
-The revised proposal is **premium and review-ready** under the rubric. It is specific, commercially useful, evidence-aware, complete, scope-safe, and reusable. The prior unsupported Alex role assignments have been corrected, and no automatic-fail condition is present.
-
-This verdict is deliberately bounded:
-
-- **Ready:** inclusion in the synthetic evidence pack; review by the fictional buyer/operator and provider; use as the canonical Case A proposal output.
-- **Not yet ready:** unconditional kickoff, external sending, or treatment as an approved contract/SOW.
-- **Never permitted from this artifact:** representation as real customer evidence, a testimonial, a case study, a delivered result, or proof of time saved or commercial impact.
-
-Kickoff remains conditional on payment, usable approved source materials, the approved AI environment and sanitized-data boundary, exact workflow boundaries, acceptance mechanics, assigned responsibilities, and reviewer/tester availability.
+The proposal is specific, complete, commercially useful, evidence-disciplined, and credible as a controlled artifact within the fixed £5,000 Starter Sprint workflow. Maya may review the fictional commercial decision as approve, conditionally approve, or defer. Delivery may begin only after the proposal’s pre-kickoff conditions are resolved by the appropriate humans.
 
 # Risks and gaps
 
-1. The six source artifacts have not been inspected.
-2. Acceptance mechanics and final acceptance authority remain unconfirmed.
-3. Tool approval and information-handling boundaries remain unconfirmed.
-4. Detailed workflow variants, fields, taxonomies, and stop/flag rules remain open.
-5. Phase responsibilities, availability, review cadence, dates, and post-handoff change control remain open.
-6. No business outcome or ROI has been validated.
-7. Synthetic material could still be misused if its classification is detached from derivatives.
-
-All seven risks are visible in the proposal and paired with gates, exclusions, or human-review controls.
+- Uninspected or unfit source materials could prevent either bounded workflow from being built or tested in two weeks.
+- Unresolved input/output definitions or workflow variants could create subjective acceptance or hidden scope.
+- An unapproved AI environment or unclear information boundary could block delivery or permit inappropriate material handling.
+- Undefined acceptance mechanics could turn review into opinion rather than observable testing.
+- Missing stakeholder availability, ownership, cadence, and dates could make the two-week plan infeasible.
+- The artifact could be misused if its synthetic classification or human-review gates are removed.
+- No real-world benefit, adoption, demand, or proof point is established by this evidence pack.
 
 # Recommended next actions
 
-1. **Maya, Alex, and the provider:** Review the proposal and choose approve, conditionally approve, or defer.
-2. **Maya and Alex:** Confirm the approved AI tool, permitted sanitized-information boundary, access owner, and review controls.
-3. **Alex and the provider:** Confirm the source manifest, exact workflow inputs/outputs, source hierarchy, variants, and missing/conflicting-information behavior.
-4. **Maya, Alex, and the provider:** Agree test cases, scoring, correction handling, operational testing, and final acceptance authority.
-5. **All required participants:** Assign phase responsibilities and participant-approved dates, then confirm availability and review cadence.
-6. **Provider:** Begin the two-week Sprint only after every pre-kickoff gate in the proposal is satisfied.
+1. **Provider, Maya, and Alex:** Complete human review of the two-workflow scope, £5,000 investment, two-week duration, exclusions, decision sequence, and pre-kickoff gates.
+2. **Alex:** Prepare the source manifest without transferring materials before the agreed post-payment point.
+3. **Maya and Alex:** Confirm the AI tool, approval state, access owner, and permitted information boundary; escalate security, privacy, legal, or compliance approval outside the Sprint.
+4. **Provider and Alex:** Agree both workflows’ required/optional inputs, source hierarchy, output structures, missing/conflicting-data behavior, and bounded variants.
+5. **Provider, Alex, and Maya:** Define representative tests, scoring, correction handling, operational testing, and final acceptance authority.
+6. **Named participants:** Set real owners, dates, review cadence, and feedback windows.
+7. **Provider:** Recheck the proposal and email against the human-review checklist immediately before any approved external use.
+8. **Delivery team:** Start the two-week Sprint only after payment and every stated kickoff gate are confirmed.
 
 # Human-review checklist
 
-- [ ] Preserve the synthetic classification on the proposal, email, QA report, and every derivative.
-- [ ] Confirm no claim is being presented as customer evidence or a delivered result.
-- [ ] Confirm the £5,000 price, two-week duration, two-workflow scope, deliverables, and payment/material sequence.
-- [ ] Confirm all additional commercial and legal terms through human review.
-- [ ] Confirm the six source artifacts exist, are approved, and are usable after payment.
-- [ ] Confirm exact workflow inputs, outputs, source hierarchy, variants, and stop/flag behavior.
-- [ ] Confirm the approved AI tool, access, approval state, and sanitized-information boundary.
-- [ ] Confirm test cases, rubric, pass/revise/fail rules, correction loop, and final signatory.
-- [ ] Confirm phase responsibilities; do not infer them from general stakeholder titles.
-- [ ] Confirm participant availability, review cadence, dates, and post-handoff ownership/change control.
-- [ ] Keep pricing, legal terms, claims, delivery commitments, client decisions, external wording, and sending behind Maya’s approval.
-- [ ] Do not automatically send a proposal, SOW, report, or email.
-- [ ] Do not add guarantees, integrations, autonomous actions, extra workflows, or materially different variants without an explicit scope decision.
-- [ ] Obtain explicit provider review and human send approval before any external use.
+- [ ] The reviewed proposal’s SHA256 matches `ab2f97e11f6a42c2e56954ad081f0b4ccccc7cf0202463d16f738933e4ffc100`.
+- [ ] Synthetic classification remains on the proposal, email, QA review, and all derivatives.
+- [ ] Nothing is represented as customer evidence, a testimonial, a real opportunity, a delivered result, or proof of impact.
+- [ ] The corrected source wording remains “six stated examples, sanitized or otherwise approved for permitted Sprint use.”
+- [ ] The six source artifacts’ existence, permitted use, post-payment availability, usability, and bounded-workflow fit are confirmed.
+- [ ] Exact inputs, outputs, source hierarchy, variants, and stop/flag rules are agreed.
+- [ ] Test cases, rubric, pass/revise/fail handling, correction loop, and acceptance authority are agreed.
+- [ ] AI-tool access, approval state, and permitted information boundary are confirmed by the fictional client.
+- [ ] Maya’s commercial, client-facing, and send approval boundaries remain explicit.
+- [ ] Provider and client operating owners, change control, support route, stakeholder availability, cadence, and participant-set dates are confirmed.
+- [ ] No integration, autonomous sending, legal/security/compliance approval, additional workflow, or outcome guarantee has been added.
+- [ ] A human completes commercial, legal, delivery, and email review before any external use.
+- [ ] Kickoff occurs only after payment and all stated readiness gates are satisfied.
 
 # Assumptions made
 
-No new case facts are assumed in this QA report. It evaluates the proposal against the supplied synthetic input, Discovery Gap output, agent specification, quality rubric, review checklist, and evidence-pack boundary.
-
-The **99/100** score reflects the quality of the current draft and its control of uncertainty; it does not imply that the unresolved conditions are complete, that kickoff is authorized, or that any business outcome has been achieved. The optional refinements and next-action sequence are QA recommendations, not claims about participant agreement.
+No new case fact was assumed. The review treats the source pack’s supplied assumptions as unverified conditions and treats proposed controls, owners, dates, test mechanics, and operating details as recommendations or items to confirm. The QA score evaluates the proposal’s quality and evidence discipline; it does not validate source fitness, commercial approval, kickoff readiness, client demand, confidential-data performance, adoption, or business impact.
